@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Prototype</title>
+    <style>
+        /* ----- Reset & fullscreen ----- */
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #ffffff;
+        }
+
+        iframe {
+            border: none;
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    🔑 Key parameters to hide Figma UI:
+    - hide-ui=1       → hides toolbar, sidebar, footer, "Open in Figma" button
+    - scaling=scale-down → ensures the prototype fits without cropping
+    -->
+    <iframe
+    src="https://embed.figma.com/proto/4CfhKoiZIl0ZZTNvZ1GH1p/digi-vila?node-id=0-1&embed-host=share&hide-ui=1&scaling=scale-down"
+    allowfullscreen
+    >
+</iframe>
+</body>
+</html>
